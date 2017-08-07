@@ -1,0 +1,382 @@
+2017-07-06 00:46:59.569 [http-nio-83-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 00:47:24.697 [http-nio-83-exec-7] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 00:47:25.024 [http-nio-83-exec-7] DEBUG org.hibernate.SQL - select count(user0_.id) as col_0_0_ from user user0_
+2017-07-06 00:47:48.688 [http-nio-83-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 00:47:48.741 [http-nio-83-exec-9] DEBUG org.hibernate.SQL - select count(user0_.id) as col_0_0_ from user user0_
+2017-07-06 01:15:11.357 [main] INFO  com.jnshu.Task7Application - Starting Task7Application on LALH with PID 13884 (G:\work\task7\target\classes started by LALH in G:\work\task7)
+2017-07-06 01:15:11.412 [main] DEBUG com.jnshu.Task7Application - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-06 01:15:11.412 [main] INFO  com.jnshu.Task7Application - No active profile set, falling back to default profiles: default
+2017-07-06 01:15:12.149 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-07-06 01:15:13.484 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2017-07-06 01:15:13.487 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.jnshu'
+2017-07-06 01:15:13.518 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.jnshu]' package. Please check your configuration.
+2017-07-06 01:15:14.721 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-07-06 01:15:14.745 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-07-06 01:15:14.746 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-07-06 01:15:14.748 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\LALH\AppData\Local\Temp\
+2017-07-06 01:15:14.770 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-07-06 01:15:14.789 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-07-06 01:15:15.125 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-06 01:15:15.126 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-06 01:15:15.126 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-06 01:15:15.142 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-06 01:15:15.142 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-06 01:15:15.142 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-06 01:15:15.144 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2017-07-06 01:15:15.168 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\LALH\AppData\Local\Temp
+2017-07-06 01:15:15.168 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\LALH\AppData\Local\Temp\.ehcache-diskstore.lock
+2017-07-06 01:15:15.172 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-06 01:15:15.186 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\LALH\AppData\Local\Temp\resource%0043ache.index
+2017-07-06 01:15:15.186 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-06 01:15:15.286 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-07-06 01:15:15.288 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-07-06 01:15:15.290 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-07-06 01:15:15.291 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-07-06 01:15:15.292 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-07-06 01:15:15.321 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-07-06 01:15:15.323 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-07-06 01:15:15.325 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-07-06 01:15:15.329 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-07-06 01:15:15.329 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-07-06 01:15:15.330 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-07-06 01:15:15.332 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-07-06 01:15:15.333 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-07-06 01:15:15.349 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2017-07-06 01:15:15.349 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2017-07-06 01:15:15.349 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2017-07-06 01:15:16.016 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-07-06 01:15:16.017 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-06 01:15:16.324 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-06 01:15:17.112 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-07-06 01:15:24.170 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2017-07-06 01:15:24.217 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-07-06 01:15:24.296 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2017-07-06 01:15:25.138 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-83"]
+2017-07-06 01:15:25.157 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-83"]
+2017-07-06 01:15:25.182 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-06 01:15:25.227 [main] INFO  com.jnshu.Task7Application - Started Task7Application in 14.702 seconds (JVM running for 17.876)
+2017-07-06 01:15:25.228 [main] DEBUG com.jnshu.Task7Application - 启动成功
+2017-07-06 01:16:07.457 [main] INFO  com.jnshu.Task7Application - Starting Task7Application on LALH with PID 6644 (G:\work\task7\target\classes started by LALH in G:\work\task7)
+2017-07-06 01:16:07.463 [main] DEBUG com.jnshu.Task7Application - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-06 01:16:07.464 [main] INFO  com.jnshu.Task7Application - No active profile set, falling back to default profiles: default
+2017-07-06 01:16:08.335 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-07-06 01:16:09.620 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2017-07-06 01:16:09.624 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.jnshu'
+2017-07-06 01:16:09.656 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.jnshu]' package. Please check your configuration.
+2017-07-06 01:16:11.479 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-07-06 01:16:11.567 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-07-06 01:16:11.567 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-07-06 01:16:11.570 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\LALH\AppData\Local\Temp\
+2017-07-06 01:16:11.606 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-07-06 01:16:11.633 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-07-06 01:16:12.074 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-06 01:16:12.075 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-06 01:16:12.075 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-06 01:16:12.093 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-06 01:16:12.093 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-06 01:16:12.093 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-06 01:16:12.096 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2017-07-06 01:16:12.120 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\LALH\AppData\Local\Temp
+2017-07-06 01:16:12.121 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\LALH\AppData\Local\Temp\.ehcache-diskstore.lock
+2017-07-06 01:16:12.126 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-06 01:16:12.141 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\LALH\AppData\Local\Temp\resource%0043ache.index
+2017-07-06 01:16:12.142 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-06 01:16:12.248 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-07-06 01:16:12.250 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-07-06 01:16:12.252 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-07-06 01:16:12.252 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-07-06 01:16:12.253 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-07-06 01:16:12.280 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-07-06 01:16:12.283 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-07-06 01:16:12.284 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-07-06 01:16:12.286 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-07-06 01:16:12.287 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-07-06 01:16:12.288 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-07-06 01:16:12.289 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-07-06 01:16:12.290 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-07-06 01:16:12.304 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2017-07-06 01:16:12.304 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2017-07-06 01:16:12.305 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2017-07-06 01:16:13.451 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-07-06 01:16:13.455 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-06 01:16:14.463 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-06 01:16:16.010 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-07-06 01:16:25.520 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2017-07-06 01:16:25.574 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-07-06 01:16:25.675 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2017-07-06 01:16:26.443 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2017-07-06 01:16:26.464 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2017-07-06 01:16:26.508 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-06 01:16:26.562 [main] INFO  com.jnshu.Task7Application - Started Task7Application in 19.809 seconds (JVM running for 21.596)
+2017-07-06 01:16:26.562 [main] DEBUG com.jnshu.Task7Application - 启动成功
+2017-07-06 01:17:13.908 [http-nio-80-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1498912409,1498960122,1499097637; _ga=GA1.1.1940559230.1495679898; _gid=GA1.1.317320904.1499217151; JSESSIONID=08BE056E0B7165A0EF8B8385F29DD2F6] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2017-07-06 01:17:13.925 [http-nio-80-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-06 01:17:18.266 [http-nio-80-exec-9] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.] with root cause
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.jnshu.controller.LoginController.login(LoginController.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-07-06 01:17:43.556 [http-nio-80-exec-3] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 01:17:49.279 [http-nio-80-exec-2] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 01:17:50.127 [http-nio-80-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 01:17:51.304 [http-nio-80-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 01:17:52.046 [http-nio-80-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 01:17:53.285 [http-nio-80-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 01:17:54.220 [http-nio-80-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 01:17:57.246 [http-nio-80-exec-2] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 01:18:06.688 [http-nio-80-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ where user0_.username like ? limit ?
+2017-07-06 01:18:08.718 [http-nio-80-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ where user0_.username like ? limit ?
+2017-07-06 01:18:11.558 [http-nio-80-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 01:18:19.416 [http-nio-80-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ where user0_.username like ? limit ?
+2017-07-06 01:18:22.204 [http-nio-80-exec-10] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ where user0_.username like ? limit ?
+2017-07-06 01:18:23.671 [http-nio-80-exec-7] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 01:18:34.265 [http-nio-80-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 01:18:46.230 [http-nio-80-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 09:30:01.669 [main] INFO  com.jnshu.Task7Application - Starting Task7Application on LALH with PID 3388 (G:\work\task7\target\classes started by LALH in G:\work\task7)
+2017-07-06 09:30:01.779 [main] DEBUG com.jnshu.Task7Application - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-06 09:30:01.779 [main] INFO  com.jnshu.Task7Application - No active profile set, falling back to default profiles: default
+2017-07-06 09:30:02.654 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-07-06 09:30:03.917 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2017-07-06 09:30:03.917 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.jnshu'
+2017-07-06 09:30:03.963 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.jnshu]' package. Please check your configuration.
+2017-07-06 09:30:05.478 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-07-06 09:30:05.509 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-07-06 09:30:05.525 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-07-06 09:30:05.525 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\LALH\AppData\Local\Temp\
+2017-07-06 09:30:05.556 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-07-06 09:30:05.572 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-07-06 09:30:06.041 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-06 09:30:06.041 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-06 09:30:06.041 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-06 09:30:06.072 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-06 09:30:06.072 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-06 09:30:06.072 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-06 09:30:06.072 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2017-07-06 09:30:06.103 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\LALH\AppData\Local\Temp
+2017-07-06 09:30:06.103 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\LALH\AppData\Local\Temp\.ehcache-diskstore.lock
+2017-07-06 09:30:06.103 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-06 09:30:06.119 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\LALH\AppData\Local\Temp\resource%0043ache.index
+2017-07-06 09:30:06.119 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-06 09:30:06.213 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-07-06 09:30:06.213 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-07-06 09:30:06.228 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-07-06 09:30:06.228 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-07-06 09:30:06.228 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-07-06 09:30:06.244 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-07-06 09:30:06.244 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-07-06 09:30:06.244 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-07-06 09:30:06.244 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-07-06 09:30:06.244 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-07-06 09:30:06.244 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-07-06 09:30:06.244 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-07-06 09:30:06.244 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-07-06 09:30:06.259 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2017-07-06 09:30:06.259 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2017-07-06 09:30:06.259 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2017-07-06 09:30:07.009 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-07-06 09:30:07.009 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-06 09:30:07.384 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-06 09:30:08.149 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-07-06 09:30:15.330 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2017-07-06 09:30:15.377 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-07-06 09:30:15.455 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2017-07-06 09:30:16.235 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2017-07-06 09:30:16.251 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2017-07-06 09:30:16.298 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-06 09:30:16.329 [main] INFO  com.jnshu.Task7Application - Started Task7Application in 15.64 seconds (JVM running for 19.388)
+2017-07-06 09:30:16.329 [main] DEBUG com.jnshu.Task7Application - 启动成功
+2017-07-06 09:30:38.145 [http-nio-80-exec-2] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1498912409,1498960122,1499097637; _ga=GA1.1.1940559230.1495679898; _gid=GA1.1.317320904.1499217151] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2017-07-06 09:30:38.159 [http-nio-80-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-06 09:30:57.653 [http-nio-80-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 09:30:59.750 [http-nio-80-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 09:31:01.578 [http-nio-80-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 09:31:02.582 [http-nio-80-exec-3] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 09:31:05.399 [http-nio-80-exec-9] DEBUG org.hibernate.SQL - insert into user (avatar, create_time, email, name, password, sex, tel, update_time, username) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2017-07-06 09:31:07.539 [http-nio-80-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 09:31:16.161 [http-nio-80-exec-10] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 09:31:16.255 [http-nio-80-exec-10] DEBUG org.hibernate.SQL - delete from user where id=?
+2017-07-06 09:31:18.509 [http-nio-80-exec-7] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 09:31:42.530 [http-nio-80-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 16:07:40.526 [main] INFO  com.jnshu.Task7Application - Starting Task7Application on LALH with PID 6880 (started by LALH in C:\文件\work\task7)
+2017-07-06 16:07:40.531 [main] DEBUG com.jnshu.Task7Application - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-06 16:07:40.531 [main] INFO  com.jnshu.Task7Application - No active profile set, falling back to default profiles: default
+2017-07-06 16:07:41.518 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-07-06 16:07:43.644 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2017-07-06 16:07:43.650 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.jnshu'
+2017-07-06 16:07:43.735 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.jnshu]' package. Please check your configuration.
+2017-07-06 16:07:45.655 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-07-06 16:07:45.686 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-07-06 16:07:45.686 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-07-06 16:07:45.689 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\LALH\AppData\Local\Temp\
+2017-07-06 16:07:45.720 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-07-06 16:07:45.741 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-07-06 16:07:46.385 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-06 16:07:46.386 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-06 16:07:46.386 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-06 16:07:46.405 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-06 16:07:46.406 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-06 16:07:46.406 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-06 16:07:46.407 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2017-07-06 16:07:46.431 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\LALH\AppData\Local\Temp
+2017-07-06 16:07:46.431 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\LALH\AppData\Local\Temp\.ehcache-diskstore.lock
+2017-07-06 16:07:46.432 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.data
+2017-07-06 16:07:46.433 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-06 16:07:46.448 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\LALH\AppData\Local\Temp\resource%0043ache.index
+2017-07-06 16:07:46.449 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-06 16:07:46.567 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-07-06 16:07:46.569 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-07-06 16:07:46.570 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-07-06 16:07:46.571 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-07-06 16:07:46.571 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-07-06 16:07:46.600 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-07-06 16:07:46.603 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-07-06 16:07:46.606 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-07-06 16:07:46.609 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-07-06 16:07:46.610 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-07-06 16:07:46.610 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-07-06 16:07:46.612 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-07-06 16:07:46.614 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-07-06 16:07:46.718 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2017-07-06 16:07:46.719 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2017-07-06 16:07:46.719 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2017-07-06 16:07:48.379 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-07-06 16:07:48.382 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-06 16:07:48.901 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-06 16:07:50.281 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-07-06 16:07:56.887 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2017-07-06 16:07:56.925 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-07-06 16:07:56.983 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2017-07-06 16:07:57.859 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2017-07-06 16:07:57.879 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2017-07-06 16:07:57.901 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-06 16:07:57.945 [main] INFO  com.jnshu.Task7Application - Started Task7Application in 18.019 seconds (JVM running for 20.557)
+2017-07-06 16:07:57.945 [main] DEBUG com.jnshu.Task7Application - 启动成功
+2017-07-06 16:09:25.313 [http-nio-80-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1498912409,1498960122,1499097637; _ga=GA1.1.1940559230.1495679898; _gid=GA1.1.317320904.1499217151] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2017-07-06 16:09:25.326 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-06 16:09:32.323 [http-nio-80-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 16:09:34.654 [http-nio-80-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 16:09:36.545 [http-nio-80-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 16:09:37.472 [http-nio-80-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 16:09:38.815 [http-nio-80-exec-7] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 16:09:39.774 [http-nio-80-exec-10] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 16:09:40.761 [http-nio-80-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 18:35:45.237 [main] INFO  com.jnshu.Task7Application - Starting Task7Application on LALH with PID 4824 (started by LALH in C:\文件\work\task7)
+2017-07-06 18:35:45.244 [main] DEBUG com.jnshu.Task7Application - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-06 18:35:45.244 [main] INFO  com.jnshu.Task7Application - No active profile set, falling back to default profiles: default
+2017-07-06 18:35:46.172 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2017-07-06 18:35:48.265 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2017-07-06 18:35:48.267 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.jnshu'
+2017-07-06 18:35:48.357 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.jnshu]' package. Please check your configuration.
+2017-07-06 18:35:50.067 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2017-07-06 18:35:50.095 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2017-07-06 18:35:50.095 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-07-06 18:35:50.097 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\LALH\AppData\Local\Temp\
+2017-07-06 18:35:50.130 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2017-07-06 18:35:50.146 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-07-06 18:35:50.595 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-06 18:35:50.596 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-06 18:35:50.596 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-06 18:35:50.604 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-07-06 18:35:50.605 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2017-07-06 18:35:50.605 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-07-06 18:35:50.606 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2017-07-06 18:35:50.618 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\LALH\AppData\Local\Temp
+2017-07-06 18:35:50.619 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\LALH\AppData\Local\Temp\.ehcache-diskstore.lock
+2017-07-06 18:35:50.621 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-06 18:35:50.637 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\LALH\AppData\Local\Temp\resource%0043ache.index
+2017-07-06 18:35:50.637 [main] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2017-07-06 18:35:50.716 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-07-06 18:35:50.717 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-07-06 18:35:50.718 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-07-06 18:35:50.719 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-07-06 18:35:50.720 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-07-06 18:35:50.743 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2017-07-06 18:35:50.745 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2017-07-06 18:35:50.745 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-07-06 18:35:50.748 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2017-07-06 18:35:50.751 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2017-07-06 18:35:50.753 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2017-07-06 18:35:50.754 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2017-07-06 18:35:50.755 [main] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2017-07-06 18:35:50.761 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2017-07-06 18:35:50.762 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2017-07-06 18:35:50.762 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2017-07-06 18:35:51.582 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-07-06 18:35:51.584 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-06 18:35:51.902 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-06 18:35:52.740 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-07-06 18:35:59.005 [main] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2017-07-06 18:35:59.060 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-07-06 18:35:59.122 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2017-07-06 18:35:59.663 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2017-07-06 18:35:59.682 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2017-07-06 18:35:59.708 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-07-06 18:35:59.761 [main] INFO  com.jnshu.Task7Application - Started Task7Application in 15.424 seconds (JVM running for 17.441)
+2017-07-06 18:35:59.762 [main] DEBUG com.jnshu.Task7Application - 启动成功
+2017-07-06 18:36:34.324 [http-nio-80-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1498912409,1498960122,1499097637; _ga=GA1.1.1940559230.1495679898; _gid=GA1.1.317320904.1499217151] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2017-07-06 18:36:34.343 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-06 18:37:07.453 [http-nio-80-exec-2] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 18:37:27.965 [http-nio-80-exec-3] DEBUG org.hibernate.SQL - insert into user (avatar, create_time, email, name, password, sex, tel, update_time, username) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2017-07-06 18:37:30.739 [http-nio-80-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 18:37:33.312 [http-nio-80-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 18:37:40.378 [http-nio-80-exec-7] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 18:37:40.441 [http-nio-80-exec-7] DEBUG org.hibernate.SQL - update user set avatar=?, create_time=?, email=?, name=?, password=?, sex=?, tel=?, update_time=?, username=? where id=?
+2017-07-06 18:37:42.853 [http-nio-80-exec-8] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?
+2017-07-06 18:37:45.316 [http-nio-80-exec-10] DEBUG org.hibernate.SQL - select user0_.id as id1_0_0_, user0_.avatar as avatar2_0_0_, user0_.create_time as create_t3_0_0_, user0_.email as email4_0_0_, user0_.name as name5_0_0_, user0_.password as password6_0_0_, user0_.sex as sex7_0_0_, user0_.tel as tel8_0_0_, user0_.update_time as update_t9_0_0_, user0_.username as usernam10_0_0_ from user user0_ where user0_.id=?
+2017-07-06 18:37:45.364 [http-nio-80-exec-10] DEBUG org.hibernate.SQL - delete from user where id=?
+2017-07-06 18:37:47.559 [http-nio-80-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_0_, user0_.avatar as avatar2_0_, user0_.create_time as create_t3_0_, user0_.email as email4_0_, user0_.name as name5_0_, user0_.password as password6_0_, user0_.sex as sex7_0_, user0_.tel as tel8_0_, user0_.update_time as update_t9_0_, user0_.username as usernam10_0_ from user user0_ limit ?

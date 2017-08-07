@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jnshu.mapper.PostionMapper">
+
+    <!--Postion结果集-->
+    <resultMap id="postionMap" type="com.jnshu.entity.Postion">
+        <id property="id" column="id" />
+        <result property="postion" column="postion" jdbcType="VARCHAR"/>
+        <result property="postionIntro" column="postion_introduction" jdbcType="VARCHAR"/>
+        <result property="threshold" column="threshold" jdbcType="VARCHAR"/>
+        <result property="degreeDiff" column="degree_difficulty" jdbcType="VARCHAR"/>
+        <result property="growthCycle" column="growth_cycle" jdbcType="VARCHAR"/>
+        <result property="scarcity" column="scarcity" jdbcType="VARCHAR"/>
+        <result property="salary01" column="salary_01" jdbcType="VARCHAR"/>
+        <result property="salary02" column="salary_02" jdbcType="VARCHAR"/>
+        <result property="salary03" column="salary_03" jdbcType="VARCHAR"/>
+        <result property="stuNumber" column="stu_number" jdbcType="VARCHAR"/>
+        <result property="tips" column="tips" jdbcType="VARCHAR"/>
+    </resultMap>
+
+
+    <sql id="postion_columns">
+        id,postion,postion_introduction,threshold,degree_difficulty,growth_cycle,scarcity,
+        salary_01,salary_02,salary_03,stu_number,tips
+    </sql>
+
+    <!--获取所有学生信息-->
+    <select id="findAllPostion" resultMap="postionMap">
+        SELECT <include refid="postion_columns"/> FROM postion
+    </select>
+
+</mapper>

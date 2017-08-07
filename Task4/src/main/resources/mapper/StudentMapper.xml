@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jnshu.mapper.StudentMapper">
+
+    <!--Student结果集-->
+    <resultMap id="studentMap" type="com.jnshu.entity.Student">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="avatar" column="avatar"/>
+        <result property="postion" column="postion"/>
+        <result property="introduction" column="introduction"/>
+    </resultMap>
+
+    <!--获取所有学生信息-->
+    <select id="findAllStudent" resultMap="studentMap">
+        SELECT * FROM student
+    </select>
+
+</mapper>

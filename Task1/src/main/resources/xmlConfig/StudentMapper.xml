@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jnshu.task1.mappers.StudentMapper" >
+        <!-- type：实体类的地址-->
+    <resultMap type="com.jnshu.task1.domain.Student" id="StudentResult">
+        <id     property="id"        column="id"/>
+        <result property="name"     column="name"/>
+        <result property="stuId"    column="stu_id"/>
+        <result property="createAt" column="create_at"/>
+        <result property="updateAt" column="update_at"/>
+    </resultMap>
+
+    <select id="findAllStudents" resultMap="StudentResult">
+        select * from Students
+    </select>
+
+    <select id="findStudentById" parameterType="long" resultType="Student">
+        select id as id, name, stu_id, create_at, update_at from Students where id = #{id}
+    </select>
+
+    <select id="findStudentByName" parameterType="String" resultType="Student">
+        select id as id, name, stu_id, create_at, update_at from Students where name = #{name}
+    </select>
+
+    <select id="findStudentByStuId" parameterType="long" resultType="Student">
+        select id as id, name, stu_id, create_at, update_at from Students where stu_id = #{stu_id}
+    </select>
+
+    <insert id="insertStudent" parameterType="Student">
+        insert  into Students(id, name, stu_id, create_at, update_at) values(#{id},#{name},#{stuId},#{createAt},#{updateAt})
+    </insert>
+
+    <update id="updateStudent" parameterType="Student">
+        update students set name=#{name},stu_id=#{stuId},create_at=#{createAt},update_at=#{updateAt} where id=#{id}
+    </update>
+    
+    <delete id="deleteStudentById" parameterType="Student">
+        delete from students where id = #{id}
+    </delete>
+
+</mapper>
